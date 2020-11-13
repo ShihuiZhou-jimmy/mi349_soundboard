@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8">
+	<meta name="Viewport" content = "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	
+    <title>Welcome to Shihui's Blog!</title>
+    
+  </head>
+
+  <body>
+    <!-- Here is our main header that is used across all the pages of our website -->
+	<h1>Shihui Zhou</h1>
+   
+    <main >
+		<header id="header">
+			<h1>My favourite Music</h1>
+		</header>
+		<section>
+			<article>
+				<h2>Sentimental</h2>
+			</article>
+			<article>
+				<h2>Soothing </h2>
+			</article>
+			<article>
+				<h2>cheerful</h2>
+			</article>
+			
+		</section>
+		
+     
+		<h3>Click the button below to listen</h3>
+
+		<audio id="music"  src="dylanf.mp3"></audio>
+		<audio id="music1" src="Moonlight.mp3"></audio>
+		<audio id="music2" src="surfer.mp3"></audio>
+		<button id="song1" onClick="play()" >
+			dylanf
+		</button>
+
+		<button id="song2" onClick="play()" >
+			Moonlight
+		</button>
+	   
+		<button id="song3" onClick="play()" >
+			surfer
+		</button>
+	   
+    </main>
+	
+	
+	
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+
+    <footer>
+      <p>©Copyright 2020 by Shihui Zhou. All rights reversed.</p>
+	</footer>
+	<script src="soundboard.js"></script>
+  </body>
+</html>
