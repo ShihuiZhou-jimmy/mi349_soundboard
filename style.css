@@ -44,25 +44,23 @@ h4{
     font-size: 1.5em;
     margin: 0px;
     font-weight: bolder;
-    margin-right: 65px;
-    margin-left: 95px;
-    margin-top: 20em;
+    padding: 20px;
+    margin: 20px;
+
 }
 #song2{
     font-size: 1.5em;
     margin: 0px;
     font-weight: bolder;
-    margin-right: 65px;
-    margin-left: 95px;
-    margin-top: 20em;
+    padding: 20px;
+    margin: 20px;
 }
 #song3{
     font-size: 1.5em;
     margin: 0px;
     font-weight: bolder;
-    margin-right: 65px;
-    margin-left: 95px;
-    margin-top: 20em;
+    padding: 20px;
+    margin: 20px;
 }
  
    
@@ -72,19 +70,7 @@ h4{
 #header{
     color: sandybrown;
 }
-#blog{
-    border-top: 10px dotted #ccc;
-    
-}
 
-#blog2{
-    border-top: 10px dotted #ccc;
-}
-
-.blog-post{
-    border-top:10px dotted #ccc;
-    margin: 20px;
-}
 
 .ul{
     font-size: 1.6em;
@@ -93,7 +79,12 @@ h4{
 }
 
 
-
+#ambient{
+    background-color: rgb(153, 86, 117);
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
 
 
@@ -140,8 +131,18 @@ article:nth-of-type(3){
 
 button{
     background-color: sandybrown;
-    width: 200px;
-    height: 40px;
+    width: 100px;
+    height: 70px;
     text-align: center;
     
+}
+
+button:nth-of-type(1){
+    flex: 1;
+}
+button:nth-of-type(2){
+    flex: 1;
+}
+button:nth-of-type(3){
+    flex: 1;
 }
